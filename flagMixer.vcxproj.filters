@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxJSON\src\ofxJSONElement.cpp">
+      <Filter>addons\ofxJSON\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxJSON\libs\jsoncpp\src\jsoncpp.cpp">
+      <Filter>addons\ofxJSON\libs\jsoncpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jsonReader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flag.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flagDrawer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSVG\src\ofxSVG.cpp">
+      <Filter>addons\ofxSVG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSVG\libs\svgTiny\src\src_colors.cpp">
+      <Filter>addons\ofxSVG\libs\svgTiny\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSVG\libs\svgTiny\src\svgtiny.cpp">
+      <Filter>addons\ofxSVG\libs\svgTiny\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSVG\libs\svgTiny\src\svgtiny_gradient.cpp">
+      <Filter>addons\ofxSVG\libs\svgTiny\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSVG\libs\svgTiny\src\svgtiny_list.cpp">
+      <Filter>addons\ofxSVG\libs\svgTiny\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mixer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{1808a1b6-bb33-4303-bc29-0fafb774bdcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON">
+      <UniqueIdentifier>{8dc4c2b8-7fb9-43b9-8bbf-eaaefe5db515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\src">
+      <UniqueIdentifier>{7300bb1a-48db-449c-877a-b4d1ef37cfe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs">
+      <UniqueIdentifier>{38ff3a9f-bd29-4976-9139-33878812befc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs\jsoncpp">
+      <UniqueIdentifier>{b9c4ccbc-186e-4787-9b74-1ff6dc9773ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs\jsoncpp\include">
+      <UniqueIdentifier>{f0a39769-dd14-40c5-a5d1-1736ff5ac222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs\jsoncpp\include\json">
+      <UniqueIdentifier>{2c137ea1-3c26-455f-8c08-d2b3a7056b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs\jsoncpp\src">
+      <UniqueIdentifier>{110355cd-5dc2-453e-87d1-730d0c5ece99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSVG">
+      <UniqueIdentifier>{1b4bb137-5def-4842-9bec-e98ba71ac018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSVG\src">
+      <UniqueIdentifier>{2068da8f-7f09-4403-a2fb-f30d181b396b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSVG\libs">
+      <UniqueIdentifier>{e2ba4236-eb20-4753-baae-ca0779518d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSVG\libs\svgTiny">
+      <UniqueIdentifier>{f518553c-6cfb-44c2-86e4-3749f6177089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSVG\libs\svgTiny\src">
+      <UniqueIdentifier>{9cc56aed-b555-4f63-8a64-4583dcdc56b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxJSON\src\ofxJSON.h">
+      <Filter>addons\ofxJSON\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxJSON\src\ofxJSONElement.h">
+      <Filter>addons\ofxJSON\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxJSON\libs\jsoncpp\include\json\json-forwards.h">
+      <Filter>addons\ofxJSON\libs\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxJSON\libs\jsoncpp\include\json\json.h">
+      <Filter>addons\ofxJSON\libs\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsonReader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flag.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flagDrawer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSVG\src\ofxSVG.h">
+      <Filter>addons\ofxSVG\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSVG\src\ofxSVGTypes.h">
+      <Filter>addons\ofxSVG\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSVG\libs\svgTiny\src\svgtiny.h">
+      <Filter>addons\ofxSVG\libs\svgTiny\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSVG\libs\svgTiny\src\svgtiny_internal.h">
+      <Filter>addons\ofxSVG\libs\svgTiny\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mixer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
